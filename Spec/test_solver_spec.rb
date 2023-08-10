@@ -51,4 +51,20 @@ describe '#fizzbuzz' do
       expect(result).to eq('buzz')
     end
   end
+
+  context 'when N is divisible by 3 and 5' do
+    it 'returns "fizzbuzz" for 15' do
+      solver = Solver.new
+      result = solver.fizzbuzz(15)
+      expect(result).to eq('fizzbuzz')
+    end
+  end
+
+  context 'when N is not divisible by 3 or 5' do
+    it 'returns "7" for 7' do
+      solver = Solver.new
+      result = solver.fizzbuzz(7)
+      expect(result).to eq('7')
+    end
+  end
 end
