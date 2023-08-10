@@ -2,6 +2,8 @@ class Solver
     def factorial(n)
         if n == 0 
             return 1
+        elsif n < 0
+            raise ArgumentError, "Negative won't get accepted"
         end
         n * factorial(n-1)
     end
