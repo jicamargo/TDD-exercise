@@ -19,9 +19,9 @@
 - [📝 License](#license)
 
 
-# 📖 Morse Code Decoder <a name="about-project"></a>
+# 📖 TDD - TEST DRIVEN DEVELOPMENT <a name="about-project"></a>
 
-**TDD Project** is a Ruby project where we implemented a class with some methods, but we did it by doing test-driven development (TDD). The idea is to write tests first and then the code. You can verify this  in the commits history.
+**TDD Project** is a Ruby project where we implemented a class with some methods, but we did it by doing test-driven development (TDD). The idea is to write tests first and then the code. You can verify this in the commits history.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -33,9 +33,7 @@
 
 #### Key Features <a name="key-features"></a>
 
-- `Person` class with name, age, and parent permission.
-- `Student` class that inherits from `Person` with additional `classroom` attribute and a method `play_hooky`.
-- `Teacher` class that inherits from `Person` with additional `specialization` attribute and overridden `can_use_services?` method.
+- `Solver` class with factorial, reverse and fizbuzz methods, to be tested.
 
 <!-- GETTING STARTED -->
 
@@ -45,7 +43,7 @@
   https://git-scm.com/downloads and install it).
 - Step 2: Once you have installed git you can clone this project using the command below:
   ```
-  git clone https://github.com/ibugithub/School-Library
+  git clone https://github.com/jicamargo/TDD-exercise.git
   ```
 - Step 3: Once you have cloned this repo navigate to the folder that contains
   the repository.
@@ -56,24 +54,20 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running cloning this repo `https://github.com/ibugithub/School-Library`.
+To get a local copy up and running cloning this repo `https://github.com/jicamargo/TDD-exercise.git`
 
 ### Prerequisites
 
 There are no known prerequisites to run this project.
 If you encounter any issues trying to run it, please feel free to
-[open a ticket](https://github.com/ibugithub/School-Library) to let me know and i will work on it to the best
-of my abilities
+[open a ticket](https://github.com/jicamargo/TDD-exercise/issues/new) in this repository.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-`git clone https://github.com/ibugithub/School-Library`
+`git clone https://github.com/jicamargo/TDD-exercise.git`
 
-or
-
-`git clone https://github.com/ibugithub/School-Library` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
 
 ### Usage
 
@@ -113,7 +107,7 @@ To run the project:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ibugithub/School-Library/issues).
+Feel free to check the [issues page](https://github.com/jicamargo/TDD-exercise/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +115,9 @@ Feel free to check the [issues page](https://github.com/ibugithub/School-Library
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please give me a start and share my portfolio to recruters!
+If you like this project please give it a ⭐️!
+You can also follow me on Social Media.
+You can pay a coffee for me [here](https://bmc.link/jicamargo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
