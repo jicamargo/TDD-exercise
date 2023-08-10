@@ -1,14 +1,12 @@
-# frozen_string_literal: true
-
 class Solver
-  def factorial(n)
-    if [1, 0].include?(n)
+  def factorial(num)
+    if [1, 0].include?(num)
       return 1
     elsif n.negative?
       raise ArgumentError, "Negative won't get accepted"
     end
 
-    n * factorial(n - 1)
+    num * factorial(num - 1)
   end
 
   def reverse(word)
