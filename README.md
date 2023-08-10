@@ -115,9 +115,9 @@ Feel free to check the [issues page](https://github.com/jicamargo/TDD-exercise/i
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please give it a ⭐️!
-You can also follow me on Social Media.
-You can pay a coffee for me [here](https://bmc.link/jicamargo)
+- If you like this project please give it a ⭐️!
+- You can pay a coffee ☕ for me [here](https://bmc.link/jicamargo)
+- You can also follow me 👍🏽 on Social Media.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
