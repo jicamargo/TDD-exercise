@@ -25,11 +25,30 @@ describe Solver do
   end
 end
 
-# Test unit for reverse method
+  # Test unit for reverse method
 describe "reverse method" do
   it 'reverses a word' do
     solver = Solver.new
     result = solver.reverse('hello')
     expect(result).to eq('olleh')
-   end
+  end
+end
+
+# Test unit for fizzbuzz method
+describe '#fizzbuzz' do
+  context 'when N is divisible by 3' do
+    it 'returns "fizz" for 3' do
+      solver = Solver.new
+      result = solver.fizzbuzz(3)
+      expect(result).to eq('fizz')
+    end
+  end
+
+  context 'when N is divisible by 5' do
+    it 'returns "buzz" for 5' do
+      solver = Solver.new
+      result = solver.fizzbuzz(5)
+      expect(result).to eq('buzz')
+    end
+  end
 end
