@@ -1,11 +1,14 @@
-class Solver 
+# frozen_string_literal: true
+
+class Solver
   def factorial(n)
-    if n == 1 || n == 0
-        return 1
-    elsif n < 0
-        raise ArgumentError, "Negative won't get accepted"
+    if [1, 0].include?(n)
+      return 1
+    elsif n.negative?
+      raise ArgumentError, "Negative won't get accepted"
     end
-    n * factorial(n-1)
+
+    n * factorial(n - 1)
   end
 
   def reverse(word)
@@ -13,11 +16,11 @@ class Solver
   end
 
   def fizzbuzz(n)
-    if n % 3 == 0 && n % 5 == 0
+    if (n % 3).zero? && (n % 5).zero?
       'fizzbuzz'
-    elsif n % 3 == 0
+    elsif (n % 3).zero?
       'fizz'
-    elsif n % 5 == 0
+    elsif (n % 5).zero?
       'buzz'
     else
       n.to_s
