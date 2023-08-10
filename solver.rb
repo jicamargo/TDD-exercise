@@ -20,7 +20,7 @@ class Solver
     elsif n % 5 == 0
       'buzz'
     else
-      n
+      n.to_s
     end
   end
 end
