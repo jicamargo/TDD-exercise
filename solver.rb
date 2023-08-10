@@ -2,7 +2,7 @@ class Solver
   def factorial(num)
     if [1, 0].include?(num)
       return 1
-    elsif n.negative?
+    elsif num.negative?
       raise ArgumentError, "Negative won't get accepted"
     end
 
@@ -13,15 +13,15 @@ class Solver
     word.reverse
   end
 
-  def fizzbuzz(n)
-    if (n % 3).zero? && (n % 5).zero?
+  def fizzbuzz(num)
+    if (num % 3).zero? && (num % 5).zero?
       'fizzbuzz'
-    elsif (n % 3).zero?
+    elsif (num % 3).zero?
       'fizz'
-    elsif (n % 5).zero?
+    elsif (num % 5).zero?
       'buzz'
     else
-      n.to_s
+      num.to_s
     end
   end
 end
